@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user/docker
+    destination: /home/ec2-user/24response-backend
 hooks:
   ApplicationStop:
     - location: scripts/application_stop.sh

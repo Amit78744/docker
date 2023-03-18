@@ -7,7 +7,7 @@ source /home/ec2-user/.bash_profile
 #nvm install node
 
 #create our working directory if it doesnt exist
-DIR="/home/ec2-user/docker"
+DIR="/home/ec2-user/24response-backend"
 if [ -d "$DIR" ]; then
   echo "${DIR} exists"
 else
