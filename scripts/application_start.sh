@@ -11,4 +11,4 @@ cd /home/ec2-user/24response-backend
 sudo docker pull amitambaliya/hey-nodejs-mysql-app:latest
 sudo docker-compose up -d 
 
-#start our node app in the background
+#start our node app in the background 
